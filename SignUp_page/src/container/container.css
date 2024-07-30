@@ -1,0 +1,138 @@
+.container{
+    width: 100%;
+    height: 87vh;
+    padding: 2vw 6vw;
+    display: flex;
+}
+
+.container .c-left{
+    width: 50%;
+    height: 100%;
+    background-color: #dfebca;
+    border-radius: 20px 0 0  20px;
+    padding: 1vw 4vw;
+    position: relative;
+    font-size: 2vw;
+}
+.container .c-left h2{
+    width: 10vw;
+    position: absolute;
+    top: 0%;
+    left: 87%;
+    z-index: 1;
+}
+
+.c-left form{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+    margin-top: 3vw;
+}
+
+.c-left form .row{
+    width: 100%;
+}
+.c-left form .row label{
+    display: block;
+    font-size: .6em;
+    margin-left:1vw;
+    font-weight: 700;
+}
+
+.c-left form .row input{
+    width: 100%;
+    height: 2.8vw;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    outline: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 0.6em;
+}
+
+.c-left form button{
+    width: 50%;
+    height: 3vw;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size: 0.8em;
+    background-color: #143800;
+    color: #fff;
+    font-weight: 800;
+}
+
+.container .c-right{
+    width: 50%;
+    height: 100%;
+    border-radius: 0 20px 20px 0;
+    background-color: rgba(97, 74, 189, 0.8);
+    display: flex;
+    position: relative;
+}
+
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    border-radius: 0 20px 20px 0;
+}
+
+.c-right  .side{
+    width: 10%;
+    height: 100%;
+}
+
+.c-right .content{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    color: white;
+    font-size: 2vw;
+}
+.c-right .content h2{
+    position: absolute;
+    top: 0%;
+    left: 8%;
+}
+.c-right .content .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.c-right .content .row .circle{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.c-right .content .row .circle img{
+    width: 90%;
+    height: 90%;
+}
+
+.c-right .content p{
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.c-right .content p a{
+    color:white;
+    font-weight: 600;
+}
+

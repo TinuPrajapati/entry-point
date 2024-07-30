@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  max-width: 100vw;
+}
+
+@media (max-width: 1024px) {
+  .c-left form {
+    gap: 1.5vw;
+  }
+  .c-left form .row input,
+  .c-left form button {
+    height: 3.2vw;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 7vw;
+  }
+  header .h-right button {
+    width: 10vw;
+    font-size: 2vw;
+  }
+  .container .c-left {
+    font-size: 3vw;
+  }
+  .container .c-left h2 {
+    width: 15vw;
+    left: 78%;
+    z-index: 1;
+  }
+  .c-left form {
+    gap: 2vw;
+    margin-top: 4.2vw;
+  }
+  .c-left form .row input {
+    height: 4vw;
+    padding: 5px 10px;
+    border-radius: 7px;
+  }
+
+  .c-left form button {
+    width: 50%;
+    height: 4.5vw;
+  }
+
+  .c-right .content {
+    gap: 2vw;
+
+    font-size: 3vw;
+  }
+  .c-right .content h2 {
+    position: absolute;
+    top: 0%;
+    left: 8%;
+  }
+  .c-right .content .row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+  }
+
+  .c-right .content .row .circle {
+    width: 8vw;
+    height: 8vw;
+  }
+}
+
+/* @media (max-width: 600px) {
+  header {
+    height: 10vw;
+  }
+  header .h-left img {
+    width: 5vw;
+    height: 5vw;
+  }
+  header .h-right button {
+    width: 15vw;
+    font-size: 3vw;
+  }
+  .container .c-left {
+    font-size: 3.5vw;
+  }
+  .container .c-left h2 {
+    width: 15vw;
+    left: 70%;
+    z-index: 1;
+  }
+  .c-left form {
+    gap: 3vw;
+    margin-top: 10vw;
+  }
+  .c-left form .row input {
+    height: 5vw;
+    padding: 5px 10px;
+    border-radius: 7px;
+  }
+
+  .c-left form button {
+    width: 50%;
+    height: 5.5vw;
+  }
+
+  .c-right .content {
+    gap: 2vw;
+
+    font-size: 3.5vw;
+  }
+  .c-right .content h2 {
+    position: absolute;
+    top: 0%;
+    left: 8%;
+  }
+  .c-right .content .row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+  }
+
+  .c-right .content .row .circle {
+    width: 10vw;
+    height: 10vw;
+  }
+}
+@media (max-width: 425px) {
+  header {
+    height: 12vw;
+  }
+  header .h-right button {
+    width: 18vw;
+    font-size: 3vw;
+  }
+  .container .c-left {
+    font-size: 3.5vw;
+  }
+  .container .c-left h2 {
+    width: 15vw;
+    left: 70%;
+    z-index: 1;
+  }
+  .c-left form {
+    gap: 3vw;
+    margin-top: 10vw;
+  }
+  .c-left form .row input {
+    height: 5vw;
+    padding: 5px 10px;
+    border-radius: 7px;
+  }
+
+  .c-left form button {
+    width: 50%;
+    height: 5.5vw;
+  }
+
+  .c-right .content {
+    gap: 2vw;
+
+    font-size: 3.5vw;
+  }
+  .c-right .content h2 {
+    position: absolute;
+    top: 0%;
+    left: 8%;
+  }
+  .c-right .content .row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+  }
+
+  .c-right .content .row .circle {
+    width: 10vw;
+    height: 10vw;
+  }
+} */
