@@ -20,6 +20,16 @@ body {
     height: 3.2vw;
   }
 }
+@media (max-width: 900px) {
+  header{
+    height: 5.5vw;
+    padding: 0.7vw 1.25vw;
+  }
+  header .h-right button {
+    width: 9vw;
+    font-size: 1.8vw;
+  }
+}
 
 @media (max-width: 768px) {
   header {
@@ -32,57 +42,43 @@ body {
   .container .c-left {
     font-size: 3vw;
   }
-  .container .c-left h2 {
-    width: 15vw;
-    left: 78%;
-    z-index: 1;
-  }
   .c-left form {
     gap: 2vw;
-    margin-top: 4.2vw;
   }
   .c-left form .row input {
-    height: 4vw;
+    height: 4.5vw;
     padding: 5px 10px;
     border-radius: 7px;
   }
 
   .c-left form button {
     width: 50%;
-    height: 4.5vw;
+    height: 5vw;
   }
 
   .c-right .content {
     gap: 2vw;
-
     font-size: 3vw;
   }
-  .c-right .content h2 {
-    position: absolute;
-    top: 0%;
-    left: 8%;
-  }
-  .c-right .content .row {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2vw;
-  }
 
-  .c-right .content .row .circle {
+
+  .c-right .content .circle {
     width: 8vw;
     height: 8vw;
   }
 }
 
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
   header {
     height: 10vw;
+    padding: 1.25vw;
   }
   header .h-left img {
-    width: 5vw;
-    height: 5vw;
+    width: 6vw;
+    height: 6vw;
+  }
+  header .h-left h1{
+    font-size: 5.5vw;
   }
   header .h-right button {
     width: 15vw;
@@ -91,45 +87,26 @@ body {
   .container .c-left {
     font-size: 3.5vw;
   }
-  .container .c-left h2 {
-    width: 15vw;
-    left: 70%;
-    z-index: 1;
-  }
   .c-left form {
     gap: 3vw;
-    margin-top: 10vw;
   }
   .c-left form .row input {
-    height: 5vw;
+    height: 5.5vw;
     padding: 5px 10px;
     border-radius: 7px;
   }
 
   .c-left form button {
     width: 50%;
-    height: 5.5vw;
+    height: 6vw;
   }
 
   .c-right .content {
     gap: 2vw;
-
     font-size: 3.5vw;
   }
-  .c-right .content h2 {
-    position: absolute;
-    top: 0%;
-    left: 8%;
-  }
-  .c-right .content .row {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2vw;
-  }
 
-  .c-right .content .row .circle {
+  .c-right .content .circle {
     width: 10vw;
     height: 10vw;
   }
@@ -140,51 +117,44 @@ body {
   }
   header .h-right button {
     width: 18vw;
-    font-size: 3vw;
+    font-size: 4vw;
+  }
+  .container{
+    flex-wrap: wrap;
   }
   .container .c-left {
-    font-size: 3.5vw;
-  }
-  .container .c-left h2 {
-    width: 15vw;
-    left: 70%;
-    z-index: 1;
+    width: 100%;
+    height: 60%;
+    font-size: 6vw;
+    border-radius: 20px 20px 0px 0px;
   }
   .c-left form {
-    gap: 3vw;
-    margin-top: 10vw;
+    gap: 1.5vw;
   }
   .c-left form .row input {
-    height: 5vw;
+    height: 8vw;
     padding: 5px 10px;
     border-radius: 7px;
   }
 
   .c-left form button {
     width: 50%;
-    height: 5.5vw;
+    height: 9vw;
+  }
+  .container .c-right{
+    width: 100%;
+    height: 40%;
+    border-radius: 0 0px 20px 20px;
   }
 
   .c-right .content {
-    gap: 2vw;
+    gap: 4vw;
+    font-size: 5vw;
+  }
+  
 
-    font-size: 3.5vw;
+  .c-right .content .circle {
+    width: 12vw;
+    height: 12vw;
   }
-  .c-right .content h2 {
-    position: absolute;
-    top: 0%;
-    left: 8%;
-  }
-  .c-right .content .row {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2vw;
-  }
-
-  .c-right .content .row .circle {
-    width: 10vw;
-    height: 10vw;
-  }
-} */
+}

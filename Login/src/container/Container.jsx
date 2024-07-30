@@ -22,15 +22,13 @@ export default function Container() {
       </div>
       <div className="c-right">
         <img src={bg} alt="" className="background" />
-        <img src={image} alt="Background Image" className="side"/>
+        <img src={image} alt="Background Image" className="side" />
         <div className="content">
-          <div className="row">
-            <div className="circle">
-              <img src={icon} alt="" />
-            </div>
+          <div className="circle">
+            <img src={icon} alt="" />
           </div>
           <p>
-            Don't Have any account,yet? <a href="#">SignUp</a>
+            Do not Have any account,yet? <a href="#">SignUp</a>
           </p>
         </div>
       </div>
